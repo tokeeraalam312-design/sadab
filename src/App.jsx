@@ -39,7 +39,7 @@ function App() {
 
   return (
     <>
-       <h1 className='text-white font-bold text-lg'>weather app</h1>
+       <h1 className='text-white font-bold text-lg bg-blue-200 mb-1'>weather app</h1>
 
     <div className='mb-1 flex gap-1'>
       <input  ref={cityInput} placeholder='Enter city....' type='text' className='border p-1 bg-white text-center outline-0'>
